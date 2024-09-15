@@ -9,11 +9,13 @@ if [ "$age" = 18 ]
     echo "the employee is valid"
   else 
     echo "the employee is fruad"
-fi 
-
-
-
-
+fi
+if [ "$age" = 100 ]
+  then 
+     echo "he is old"
+    else 
+      echo "he is young"
+fi
 
 
 
